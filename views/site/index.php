@@ -21,11 +21,12 @@ $this->title = 'Yii Framework';
             <p>
             Yii (pronounced "Yee") is a PHP-based open source web application framework. Yii promotes DRY (Don't Repeat Yourself) design and rapid development.
             A main focus of the Yii framework is performance and efficiency, with Yii outperforming all other PHP-based frameworks in the field of requests processed per second.
+            </p>
               <figure class="center">
                   <img src="performance-20090131.png" alt="Performance Comparison Among PHP Frameworks" height="300" width="550"/>
                   <figcaption>Requests Per Second with and without Alternative PHP Cache (APC)</figcaption>
               </figure>
-            </p>
+
 
         </div>
       </div>
@@ -41,7 +42,16 @@ $this->title = 'Yii Framework';
           <div class="col-lg-12">
               <h2>Technological bases</h2>
 
-              <p>Fill this in</p>
+              <p>
+                A fundamental feature of Yii is its implementation of the Model-View-Controller (MVC) design pattern.
+                The MVC design pattern separates the application rules and logic from the user interface, so each part can be edited without
+                affecting the others.
+                <ul>
+                  <li>The Model component of MVC contains the behaviour of the application, and is independant of the user interface. The model manages application rules, logic, and data.</li>
+                  <li>The View component is the visual output of information, based on any changes made to the model.</li>
+                  <li>The Controller component sends commands to the model to update/change its state. It can also send commands to a view, to alter its output.</li>
+                </ul>
+              </p>
 
           </div>
         </div>
