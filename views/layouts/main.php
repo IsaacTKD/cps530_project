@@ -20,6 +20,13 @@ AppAsset::register($this);
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
+<style>
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+</style>
 </head>
 <body>
 <?php $this->beginBody() ?>

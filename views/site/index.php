@@ -9,13 +9,26 @@ $this->title = 'Yii Framework';
     <div class="jumbotron">
         <h1>The presentation of Yii Framework!</h1>
 
-        <p class="lead">You have successfully created your Yii-powered application.</p>
+        <!-- <p class="lead">You have successfully created your Yii-powered application.</p>
 
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
+        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p> -->
     </div>
 
     <div class="body-content">
+      <div class="row">
+        <div class="col-lg-12">
+            <h2>What Is Yii?</h2>
+            <p>
+            Yii (pronounced "Yee") is a PHP-based open source web application framework. Yii promotes DRY (Don't Repeat Yourself) design and rapid development.
+            A main focus of the Yii framework is performance and efficiency, with Yii outperforming all other PHP-based frameworks in the field of requests processed per second.
+              <figure class="center">
+                  <img src="performance-20090131.png" alt="Performance Comparison Among PHP Frameworks" height="300" width="550"/>
+                  <figcaption>Requests Per Second with and without Alternative PHP Cache (APC)</figcaption>
+              </figure>
+            </p>
 
+        </div>
+      </div>
         <div class="row">
             <div class="col-lg-12">
                 <h2>Popularity</h2>
