@@ -19,15 +19,23 @@ $this->title = 'Yii Framework';
         <div class="col-lg-12">
             <h2>Requirements:</h2>
             <ul>
-              <li>Wamp</li>
+              <li>WampServer</li>
               <li>Composer</li>
 
             </ul>
-              <!--<figure class="center">
-                  <img src="performance-20090131.png" alt="Performance Comparison Among PHP Frameworks" height="300" width="550"/>
-                  <figcaption>Requests Per Second with and without Alternative PHP Cache (APC)</figcaption>
+            <div class="row">
+                <div class="col-lg-12" >
+                    <h2>Install WampServer:</h2>
+
+
+                </div>
+
+            </div>
+
+              <figure class="right">
+                  <img src="Source Forge Wamp.png" alt="Install Wamp" height="600" width="1100" />
+                  <figcaption>Wamp Installation file from Source Forge</figcaption>
               </figure>
--->
 
         </div>
       </div>
