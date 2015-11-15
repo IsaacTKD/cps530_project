@@ -13,15 +13,15 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <div class="list-group">
       <a href="#" class="list-group-item active">
-        <h4 class="list-heading">Team members</h4>
+        <h4 class="list-heading">Team Members</h4>
       </a>
       <a href="#" class="list-group-item">
         <h4 class="list-group-item-heading">Isaac Tong</h4>
         <ul>
           <li class="list-group-item-text">University: Ryerson</li>
           <li class="list-group-item-text">Program: Computer Science</li>
-          <li class="list-group-item-text">Year(s) of programming: 0</li>
-          <li class="list-group-item-text">Responsibilities: Buy coffee for Dr Shiran</li>
+          <li class="list-group-item-text">Year(s) of programming: x</li>
+          <li class="list-group-item-text">Responsibilities: </li>
         </ul>
       </a>
       <a href="#" class="list-group-item">
@@ -29,17 +29,17 @@ $this->params['breadcrumbs'][] = $this->title;
         <ul>
           <li class="list-group-item-text">University: Ryerson</li>
           <li class="list-group-item-text">Program: Computer Science</li>
-          <li class="list-group-item-text">Year(s) of programming: 5</li>
-          <li class="list-group-item-text">Responsibilities: Buy food for Dr Shiran</li>
+          <li class="list-group-item-text">Year(s) of programming: x</li>
+          <li class="list-group-item-text">Responsibilities: </li>
         </ul>
       </a>
       <a href="#" class="list-group-item">
         <h4 class="list-group-item-heading">Dr. Matin Shirandasht</h4>
         <ul>
           <li class="list-group-item-text">University: Massachusetts Institute of Technology</li>
-          <li class="list-group-item-text">Program: Master of Computer Science</li>
-          <li class="list-group-item-text">Year(s) of programming: 10 </li>
-          <li class="list-group-item-text">Responsibilities: In charge of the whole project</li>
+          <li class="list-group-item-text">Program: Computer Science</li>
+          <li class="list-group-item-text">Year(s) of programming: x </li>
+          <li class="list-group-item-text">Responsibilities: </li>
         </ul>
       </a>
       <a href="#" class="list-group-item">
@@ -47,13 +47,14 @@ $this->params['breadcrumbs'][] = $this->title;
         <ul>
           <li class="list-group-item-text">University: Ryerson</li>
           <li class="list-group-item-text">Program: Computer Science</li>
-          <li class="list-group-item-text">Year(s) of programming: 5</li>
-          <li class="list-group-item-text">Responsibilities: Find girls for Dr Shiran </li>
+          <li class="list-group-item-text">Year(s) of programming: 4</li>
+          <li class="list-group-item-text">Responsibilities: </li>
         </ul>
       </a>
 </div>
     <p>
         References :
+        <a href="https://erickarnis.wordpress.com/">Eric Karnis's Website</a>
     </p>
 
 
