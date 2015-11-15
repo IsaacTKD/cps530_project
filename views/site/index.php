@@ -67,8 +67,7 @@ $this->title = 'Yii Framework';
 
             </div>
             <div class="col-lg-6">
-                <h2>Weaknesses</h2>
-
+               <h2>Weaknesses</h2>
             </div>
         </div>
         <div class="row">
