@@ -28,7 +28,7 @@ $this->title = 'Yii Framework';
 
             </div>
 
-              <figure class="right">
+              <figure class="left">
                   <img src="Source Forge Wamp.png" alt="Install Wamp" height="400" width="800" />
                   <figcaption>Wamp Installation file from Source Forge</figcaption>
 
