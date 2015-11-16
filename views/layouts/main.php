@@ -26,6 +26,15 @@ AppAsset::register($this);
     width: 60%;
     padding: 10px;
 }
+.right {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;    
+}
 </style>
 </head>
 <body>
