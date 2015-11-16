@@ -7,7 +7,6 @@ use Yii;
 /**
  * This is the model class for table "Movie".
  *
- * @property integer $movie_id
  * @property string $movie_name
  * @property string $movie_runningtime
  * @property integer $movie_year
@@ -43,7 +42,6 @@ class Movie extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'movie_id' => 'Movie ID',
             'movie_name' => 'Movie Name',
             'movie_runningtime' => 'Movie Runningtime',
             'movie_year' => 'Movie Year',
