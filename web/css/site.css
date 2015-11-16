@@ -3,11 +3,9 @@ body {
     height: 100%;
 }
 
-<<<<<<< HEAD
 .movie-index{
  font-family: cursive;
 }
-
 
 .movie-index > h1{
   font-size: 80px;
@@ -30,8 +28,6 @@ a.btn.btn-success{
   font-family: cursive;
 }
 
-=======
->>>>>>> origin/master
 .wrap {
     min-height: 100%;
     height: auto;
