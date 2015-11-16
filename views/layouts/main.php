@@ -70,7 +70,7 @@ AppAsset::register($this);
 
 <footer class="footer">
     <div class="container">
-        <p class="pull-left">&copy; CPS530_Group# <?= date('Y') ?></p>
+        <p class="pull-left">&copy; CPS530 Group MICE <?= date('Y') ?></p>
 
         <p class="pull-right"><?= Yii::powered() ?></p>
     </div>
