@@ -2,6 +2,7 @@
 
 use yii\helpers\Html;
 $this->title= "How-to";
+$this->params['breadcrumbs'][] = $this->title;
 ?>
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
