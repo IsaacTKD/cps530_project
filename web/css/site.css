@@ -3,6 +3,10 @@ body {
     height: 100%;
 }
 
+.div > .movie-create{
+
+}
+
 .wrap {
     min-height: 100%;
     height: auto;
