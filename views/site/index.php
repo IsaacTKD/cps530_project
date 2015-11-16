@@ -26,20 +26,17 @@ $this->title = 'Yii Framework';
                   <img src="performance-20090131.png" alt="Performance Comparison Among PHP Frameworks" height="300" width="550"/>
                   <figcaption>Requests Per Second with and without Alternative PHP Cache (APC)</figcaption>
               </figure>
-
-
         </div>
       </div>
-        <div class="row">
-            <div class="col-lg-12">
+
+      <div class="row">
+          <div class="col-lg-12">
                 <h2>Popularity</h2>
                 <script type="text/javascript" src="//www.google.ca/trends/embed.js?hl=en-US&q=Yii,+/m/09t3sp,+Symfony,+/m/07h2gf,+WebGUI&cmpt=q&tz=Etc/GMT%2B5&tz=Etc/GMT%2B5&content=1&cid=TIMESERIES_GRAPH_AVERAGES_CHART&export=5&w=1000&h=350"></script>
-
-            </div>
-
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
               <h2>Technological bases</h2>
 
               <p>
@@ -53,24 +50,24 @@ $this->title = 'Yii Framework';
                 </ul>
               </p>
 
-          </div>
         </div>
-        <div class="row">
-
-            <div class="col-lg-6">
+      </div>
+      <div class="row">
+          <div class="col-lg-6">
                 <h2>Strengths</h2>
                   <ul>
                     <li>Easy to Install</li>
                     <li>Model-View-Controller</li>
                     <li>Easy to debug the code</li>
+                    <li>Flexibility and Modularity. Yii features can be replaced with code created from scratch, or even code borrowed from other frameworks.</li>
                   </ul>
 
-            </div>
-            <div class="col-lg-6">
+          </div>
+          <div class="col-lg-6">
                <h2>Weaknesses</h2>
-            </div>
-        </div>
-        <div class="row">
+          </div>
+      </div>
+      <div class="row">
             <div class="col-lg-12">
                 <div class="container">
                   <h2>Which developers mostly use and for what kind of websites</h2>
