@@ -119,10 +119,10 @@ $this->title = 'Yii Framework';
             </div>
             <div class="col-lg-6">
                     <ul>
-                      <li><a href="https://www.vice.com/en_ca">VICE</a></li>
-                      <li><a href="https://www.humhub.org/">Humhub</a></li>
-                      <li><a href="http://www.realself.com/">Realself</a></li>
-                      <li><a href="http://www.teachother.education/">teacheachother</a></li>
+                      <li><a href="http://zurmo.org/">Zurmo</a></li>
+                      <li><a href="http://noisey.vice.com/en_ca">Noisey</a></li>
+                      <li><a href="http://www.nutritionix.com/">Nutritionix</a></li>
+                      <li><a href="http://anytasker.com/">Anytasker</a></li>
                     </ul>
             </div>
         </div>
