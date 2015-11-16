@@ -23,16 +23,6 @@ $this->title = 'Yii Framework';
               </figure>
         </div>
       </div>
-<<<<<<< HEAD
-=======
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>Popularity</h2>
-                <script type="text/javascript" src="//www.google.ca/trends/embed.js?hl=en-US&q=Yii,+/m/09t3sp,+Symfony,+/m/07h2gf,+WebGUI&cmpt=q&tz=Etc/GMT%2B5&tz=Etc/GMT%2B5&tz=Etc/GMT%2B5&content=1&cid=TIMESERIES_GRAPH_0&export=5&w=1000&h=330"></script>
-
-            </div>
->>>>>>> origin/master
-
       <div class="row">
           <div class="col-lg-12">
                 <h2>Popularity</h2>
