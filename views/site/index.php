@@ -23,7 +23,7 @@ $this->title = 'Yii Framework';
               </figure>
         </div>
       </div>
-      <div class="row">
+      <div class="row" style="background:white">
           <div class="col-lg-12">
                 <h2>Popularity</h2>
                 <script type="text/javascript" src="//www.google.ca/trends/embed.js?hl=en-US&q=Yii,+/m/09t3sp,+Symfony,+/m/07h2gf,+WebGUI&cmpt=q&tz=Etc/GMT%2B5&tz=Etc/GMT%2B5&content=1&cid=TIMESERIES_GRAPH_AVERAGES_CHART&export=5&w=1000&h=350"></script>
