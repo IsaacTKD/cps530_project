@@ -77,17 +77,7 @@ $this->title = 'Yii Framework';
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-lg-6">
-
-                  <h2>Start Wamp Server:</h2>
-
-                  <img src="second command.png" alt="Install Wamp" height="500" width="1000" />
-
-
-
-            </div>
-        </div>
+        
         <div class="row">
             <div class="col-lg-6">
 
