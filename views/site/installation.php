@@ -16,7 +16,7 @@ $this->title = 'Yii Framework';
 
     <div class="body-content">
       <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-6">
             <h2>Requirements:</h2>
             <ul>
               <li>WampServer</li>
@@ -24,93 +24,54 @@ $this->title = 'Yii Framework';
 
             </ul>
             <div class="row">
-                <div class="col-lg-12" >
+                <div class="col-lg-6" >
                     <h2>Install WampServer:</h2>
-
+                      <br/>
 
                 </div>
 
             </div>
 
               <figure class="right">
-                  <img src="Source Forge Wamp.png" alt="Install Wamp" height="600" width="1100" />
+                  <img src="Source Forge Wamp.png" alt="Install Wamp" height="400" width="800" />
                   <figcaption>Wamp Installation file from Source Forge</figcaption>
+                  <br/>
               </figure>
 
         </div>
       </div>
         <div class="row">
-            <!--<div class="col-lg-12">
-                <h2>Popularity</h2>
-                <script type="text/javascript" src="//www.google.ca/trends/embed.js?hl=en-US&q=Yii,+/m/09t3sp,+Symfony,+/m/07h2gf,+WebGUI&cmpt=q&tz=Etc/GMT%2B5&tz=Etc/GMT%2B5&content=1&cid=TIMESERIES_GRAPH_AVERAGES_CHART&export=5&w=1000&h=350"></script>
+            <div class="col-lg-10">
+                <h2>Install  Composer from http://www.yiiframework.com/doc-2.0/guide-start-installation.html</h2>
+                <img src="Install Yii.png" alt="Install Wamp" height="400" width="800" />
+                <br/>
+                <br/>
 
+
+                <img src="InstallLink.png" alt="Install Wamp" height="400" width="800" />
             </div>
--->
+
         </div>
         <div class="row">
-          <div class="col-lg-12">
-              <!--<h2>Technological bases</h2>
+          <div class="col-lg-6">
+              <h2>Run the provided commands in command prompt</h2>
 
-              <p>
-                A fundamental feature of Yii is its implementation of the Model-View-Controller (MVC) design pattern.
-                The MVC design pattern separates the application rules and logic from the user interface, so each part can be edited without
-                affecting the others.
-                <ul>
-                  <li>The Model component of MVC contains the behaviour of the application, and is independant of the user interface. The model manages application rules, logic, and data.</li>
-                  <li>The View component is the visual output of information, based on any changes made to the model.</li>
-                  <li>The Controller component sends commands to the model to update/change its state. It can also send commands to a view, to alter its output.</li>
-                </ul>
-              </p>-->
+            <img src="cmd.png" alt="Install Wamp" height="400" width="800" />
 
           </div>
         </div>
         <div class="row">
 
             <div class="col-lg-6">
-                <!--<h2>Strengths</h2>
-                  <ul>
-                    <li>Easy to Install</li>
-                    <li>Model-View-Controller</li>
-                    <li>Easy to debug the code</li>
-                  </ul>
--->
+                <h2>Update composer if the first commmand did not execute</h2>
+                <img src="updatecomposer.png" alt="Install Wamp" height="200" width="1000" />
             </div>
-            <div class="col-lg-6">
-              <h2>(not finished yet of course)</h2>
-            </div>
+            
         </div>
         <div class="row">
             <div class="col-lg-12">
                 <div class="container">
-                  <!--
-                  <h2>Which developers mostly use and for what kind of websites</h2>
-                  <table class="table table-hover">
-                    <thead>
-                      <tr>
-                        <th>Developers</th>
-                        <th>Websites (kind)</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Web designer</td>
-                        <td></td>
-                      </tr>
-                      <tr>
-                        <td>Web programmer</td>
-                        <td></td>
-                      </tr>
-                      <tr>
-                        <td>Flash developer</td>
-                        <td></td>
-                      </tr>
-                      <tr>
-                        <td>Content developer</td>
-                        <td></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                -->
+
                 </div>
 
             </div>
