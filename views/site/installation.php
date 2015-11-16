@@ -2,8 +2,7 @@
 
 /* @var $this yii\web\View */
 
-$this->title = 'Installation';
-$this->params['breadcrumbs'][] = $this->title;
+$this->title = 'Yii Framework';
 ?>
 <div class="site-index">
 
@@ -29,9 +28,10 @@ $this->params['breadcrumbs'][] = $this->title;
 
             </div>
 
-              <figure>
+              <figure class="right">
                   <img src="Source Forge Wamp.png" alt="Install Wamp" height="400" width="800" />
                   <figcaption>Wamp Installation file from Source Forge</figcaption>
+
               </figure>
 
         </div>
@@ -82,7 +82,7 @@ $this->params['breadcrumbs'][] = $this->title;
             <div class="col-lg-6">
 
                   <h2>Go to : localhost/web/index.php: </h2>
-                  <img src="start-app-installed.png" alt="Install Wamp" height="500" width="1000" />
+                  <img src="start-app-installed.png" alt="Install Wamp" height="650" width="1000" />
 
 
             </div>
