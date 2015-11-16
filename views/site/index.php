@@ -107,4 +107,25 @@ $this->title = 'Yii Framework';
 
             </div>
         </div>
+        <div class="row">
+          <h2>Sites that use Yii</h2>
+            <div class="col-lg-6">
+                    <ul>
+                      <li><a href="https://www.vice.com/en_ca">VICE</a></li>
+                      <li><a href="https://www.humhub.org/">Humhub</a></li>
+                      <li><a href="http://www.realself.com/">Realself</a></li>
+                      <li><a href="http://www.teachother.education/">teacheachother</a></li>
+                    </ul>
+            </div>
+            <div class="col-lg-6">
+                    <ul>
+                      <li><a href="https://www.vice.com/en_ca">VICE</a></li>
+                      <li><a href="https://www.humhub.org/">Humhub</a></li>
+                      <li><a href="http://www.realself.com/">Realself</a></li>
+                      <li><a href="http://www.teachother.education/">teacheachother</a></li>
+                    </ul>
+            </div>
+        </div>
+
+    </div>
 </div>
