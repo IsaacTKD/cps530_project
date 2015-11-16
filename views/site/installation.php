@@ -8,10 +8,6 @@ $this->title = 'Yii Framework';
 
     <div class="jumbotron">
         <h1>Installation of Yii Framework!</h1>
-
-        <!-- <p class="lead">You have successfully created your Yii-powered application.</p>
-
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p> -->
     </div>
 
     <div class="body-content">
@@ -42,19 +38,21 @@ $this->title = 'Yii Framework';
       </div>
         <div class="row">
             <div class="col-lg-10">
-                <h2>Install  Composer from http://www.yiiframework.com/doc-2.0/guide-start-installation.html</h2>
+                <h2>Install  Composer from
+                  <a href="http://www.yiiframework.com/doc-2.0/guide-start-installation.html">here</a>
+                </h2>
                 <img src="Install Yii.png" alt="Install Wamp" height="400" width="800" />
                 <br/>
                 <br/>
 
-
+                <h2>For Windows, download and run the installer</h2>
                 <img src="InstallLink.png" alt="Install Wamp" height="400" width="800" />
             </div>
 
         </div>
         <div class="row">
           <div class="col-lg-6">
-              <h2>Run the provided commands in command prompt</h2>
+              <h2>For Linux and Mac OS X, run the provided commands in command prompt</h2>
 
             <img src="cmd.png" alt="Install Wamp" height="400" width="800" />
 
@@ -81,6 +79,11 @@ $this->title = 'Yii Framework';
 
         <div class="row">
             <div class="col-lg-6">
+
+                  <h2>Start Wamp Server:</h2>
+
+                  <img src="second command.png" alt="Install Wamp" height="500" width="1000" />
+
 
 
             </div>
