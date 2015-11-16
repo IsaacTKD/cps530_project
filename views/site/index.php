@@ -126,6 +126,17 @@ $this->title = 'Yii Framework';
                     </ul>
             </div>
         </div>
+        <div class="row">
+          <h2>Open Source Applications that use Yii</h2>
+            <div class="col-lg-12">
+                    <ul>
+                      <li><a href="https://www.limesurvey.org/en">LimeProject</a></li>
+                      <li><a href="https://www.x2crm.com/">X2EngineCRM</a>, A Customer Relationship Management System</li>
+                      <li><a href="http://zurmo.org/">Zurmo</a>, another CRM</li>
+                      <li><a href="https://github.com/fusonic/chive/">Chive</a>, a Web-Based Database Management tool</li>
+                    </ul>
+            </div>
+        </div>
 
     </div>
 </div>
