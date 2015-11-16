@@ -3,8 +3,30 @@ body {
     height: 100%;
 }
 
-.div > .movie-create{
+.movie-index{
+ font-family: cursive;
+}
 
+
+.movie-index > h1{
+  font-size: 80px;
+  text-align: center;
+}
+
+a.btn.btn-success{
+  font-size: 20px;
+}
+
+.movie-create{
+  font-family: cursive;
+}
+
+.movie-update{
+  font-family: cursive;
+}
+
+.movie-view{
+  font-family: cursive;
 }
 
 .wrap {

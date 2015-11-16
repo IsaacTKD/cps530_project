@@ -20,6 +20,8 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'movie_director')->textInput(['maxlength' => true]) ?>
 
+    <?= $form->field($model, 'movie_actors')->textInput(['maxlength' => true]) ?>
+
     <?= $form->field($model, 'movie_genre')->textInput(['maxlength' => true]) ?>
 
     <div class="form-group">

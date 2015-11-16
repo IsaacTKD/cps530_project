@@ -32,6 +32,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'movie_runningtime',
             'movie_year',
             'movie_director',
+            'movie_actors',
             'movie_genre',
         ],
     ]) ?>

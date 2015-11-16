@@ -29,7 +29,8 @@ $this->params['breadcrumbs'][] = $this->title;
             'movie_runningtime',
             'movie_year',
             'movie_director',
-            'movie_genre',
+            'movie_actors',
+            // 'movie_genre',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],
