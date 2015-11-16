@@ -17,6 +17,8 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'movie_name') ?>
 
+    <?= $form->field($model, 'movie_logo') ?>
+
     <?= $form->field($model, 'movie_runningtime') ?>
 
     <?= $form->field($model, 'movie_year') ?>
@@ -25,7 +27,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'movie_actors') ?>
 
-    <?php // echo $form->field($model, 'movie_genre') ?>
+    <?= $form->field($model, 'movie_genre') ?>
 
     <div class="form-group">
         <?= Html::submitButton('Search', ['class' => 'btn btn-primary']) ?>

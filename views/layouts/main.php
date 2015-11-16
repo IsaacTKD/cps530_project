@@ -55,6 +55,7 @@ AppAsset::register($this);
             ['label' => 'Home', 'url' => ['/site/index']],
             ['label' => 'Installation', 'url' => ['/site/installation']],
             ['label' => 'How-to', 'url' => ['/site/howto']],
+            ['label' => 'Actual page', 'url'=>['/movie/index']],
             ['label' => 'Conclusion', 'url' => ['/site/conclusion']],
             ['label' => 'About us', 'url' => ['/site/about']],
             

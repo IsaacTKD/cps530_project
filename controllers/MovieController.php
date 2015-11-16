@@ -8,6 +8,7 @@ use app\models\MovieSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use yii\web\UploadedFile;
 
 /**
  * MovieController implements the CRUD actions for Movie model.
@@ -49,8 +50,7 @@ class MovieController extends Controller
     public function actionView($id)
     {
         return $this->render('view', [
-            'model' => $this->findModel($id),
-        ]);
+            'model' => $this->findModel($id),]);
     }
 
     /**
@@ -62,7 +62,13 @@ class MovieController extends Controller
     {
         $model = new Movie();
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+        if ($model->load(Yii::$app->request->post()))
+        {
+            $imageName = $model->movie_name;
+            $model->file = UploadedFile::getInstance($model,'file');
+            $model->file->saveAs('uploads/'.$imageName.'.'.$model->file->extension);
+            $model->movie_logo='uploads/'.$imageName.'.'.$model->file->extension;
+            $model->save();
             return $this->redirect(['view', 'id' => $model->movie_name]);
         } else {
             return $this->render('create', [
@@ -81,7 +87,13 @@ class MovieController extends Controller
     {
         $model = $this->findModel($id);
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+        if ($model->load(Yii::$app->request->post())) {
+            $imageName = $model->movie_name;
+            $model->file = UploadedFile::getInstance($model,'file');
+            $model->file->saveAs('uploads/'.$imageName.'.'.$model->file->extension);
+            $model->movie_logo='uploads/'.$imageName.'.'.$model->file->extension;
+
+            $model->save();
             return $this->redirect(['view', 'id' => $model->movie_name]);
         } else {
             return $this->render('update', [

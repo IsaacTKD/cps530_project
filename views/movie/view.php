@@ -29,12 +29,14 @@ $this->params['breadcrumbs'][] = $this->title;
         'model' => $model,
         'attributes' => [
             'movie_name',
+            'movie_logo:image',
             'movie_runningtime',
             'movie_year',
             'movie_director',
             'movie_actors',
             'movie_genre',
         ],
+
     ]) ?>
 
 </div>

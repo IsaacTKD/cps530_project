@@ -24,13 +24,13 @@ $this->params['breadcrumbs'][] = $this->title;
         'filterModel' => $searchModel,
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
-
             'movie_name',
+            'movie_logo:image',
             'movie_runningtime',
             'movie_year',
             'movie_director',
             'movie_actors',
-            // 'movie_genre',
+            'movie_genre',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],

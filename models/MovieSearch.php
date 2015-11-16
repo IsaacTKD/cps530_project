@@ -18,7 +18,7 @@ class MovieSearch extends Movie
     public function rules()
     {
         return [
-            [['movie_name', 'movie_runningtime', 'movie_director', 'movie_actors', 'movie_genre'], 'safe'],
+            [['movie_name', 'movie_logo', 'movie_runningtime', 'movie_director', 'movie_actors', 'movie_genre'], 'safe'],
             [['movie_year'], 'integer'],
         ];
     }
@@ -60,6 +60,7 @@ class MovieSearch extends Movie
         ]);
 
         $query->andFilterWhere(['like', 'movie_name', $this->movie_name])
+            ->andFilterWhere(['like', 'movie_logo', $this->movie_logo])
             ->andFilterWhere(['like', 'movie_runningtime', $this->movie_runningtime])
             ->andFilterWhere(['like', 'movie_director', $this->movie_director])
             ->andFilterWhere(['like', 'movie_actors', $this->movie_actors])
