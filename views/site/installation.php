@@ -72,15 +72,30 @@ $this->title = 'Yii Framework';
             <div class="col-lg-6">
 
                   <h2>Create first application: </h2>
+
                   <img src="second command.png" alt="Install Wamp" height="500" width="1000" />
 
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+
+                  <h2>Start Wamp Server:</h2>
+
+                  <img src="second command.png" alt="Install Wamp" height="500" width="1000" />
+
+                  <h2>Start Wamp Server:</h2>
+
+                  <img src="SWS.png" alt="Install Wamp" height="200" width="400" />
 
             </div>
         </div>
         <div class="row">
             <div class="col-lg-6">
 
-                  <h2>localhost/web/index.php: </h2>
+                  <h2>Go to : localhost/web/index.php: </h2>
                   <img src="start-app-installed.png" alt="Install Wamp" height="500" width="1000" />
 
 
