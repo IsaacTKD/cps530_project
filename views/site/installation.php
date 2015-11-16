@@ -2,7 +2,8 @@
 
 /* @var $this yii\web\View */
 
-$this->title = 'Yii Framework';
+$this->title = 'Installation';
+$this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-index">
 
