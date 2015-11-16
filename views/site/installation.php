@@ -86,9 +86,7 @@ $this->title = 'Yii Framework';
 
                   <img src="second command.png" alt="Install Wamp" height="500" width="1000" />
 
-                  <h2>Start Wamp Server:</h2>
-
-                  <img src="SWS.png" alt="Install Wamp" height="200" width="400" />
+                
 
             </div>
         </div>
