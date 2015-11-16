@@ -66,13 +66,14 @@ $this->title = 'Yii Framework';
                 <h2>Update composer if the first commmand did not execute</h2>
                 <img src="updatecomposer.png" alt="Install Wamp" height="200" width="1000" />
             </div>
-            
+
         </div>
         <div class="row">
-            <div class="col-lg-12">
-                <div class="container">
+            <div class="col-lg-6">
 
-                </div>
+                  <h2>Creating the Yii Standard Demo Project: </h2>
+                  <img src="second command.png" alt="Install Wamp" height="200" width="1000" />
+              
 
             </div>
         </div>
