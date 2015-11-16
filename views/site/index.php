@@ -65,6 +65,12 @@ $this->title = 'Yii Framework';
           </div>
           <div class="col-lg-6">
                <h2>Weaknesses</h2>
+               <ul>
+                 <li>Steep learning curve</li>
+                 <li>Less efficient in some cases</li>
+                 <li>Database focused design isn't ideal for all use cases</li>
+                 <li>Danger of bloat</li>
+               </ul>
           </div>
       </div>
       <div class="row">
