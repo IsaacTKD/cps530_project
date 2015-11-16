@@ -33,7 +33,7 @@ AppAsset::register($this);
     padding-top: 5px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 10px;    
+    padding-bottom: 10px;
 }
 </style>
 </head>
@@ -57,13 +57,7 @@ AppAsset::register($this);
             ['label' => 'How-to', 'url' => ['/site/howto']],
             ['label' => 'Conclusion', 'url' => ['/site/conclusion']],
             ['label' => 'About us', 'url' => ['/site/about']],
-            Yii::$app->user->isGuest ?
-                ['label' => 'Login', 'url' => ['/site/login']] :
-                [
-                    'label' => 'Logout (' . Yii::$app->user->identity->username . ')',
-                    'url' => ['/site/logout'],
-                    'linkOptions' => ['data-method' => 'post']
-                ],
+            
         ],
     ]);
     NavBar::end();
