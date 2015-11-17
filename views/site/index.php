@@ -6,8 +6,10 @@ $this->title = 'Yii Framework';
 ?>
 <div class="site-index">
 
-  <header class="jumbotron" style="height:400px">
-    <h1>The Yii Framework</h1>
+  <header class="jumbotron" style="background-image:url(startup-593327.jpg); background-size: 100% auto; height: 600px; color:white">
+    <h1 style="font-size:200px">Yii</h1>
+    <br>
+    <h3>A Fast, Secure and Professional PHP Framework</h3>
   </header>
   <section>
     <a class="arrow-wrap" href="#body-content">

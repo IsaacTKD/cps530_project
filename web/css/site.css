@@ -37,8 +37,6 @@ a.btn.btn-success{
   font-family: cursive;
 }
 
-
-
 .wrap {
   min-height: 100%;
   height: auto;
@@ -165,8 +163,7 @@ section {
   position:relative;
   box-shadow:0 0 5px 0px #333;
   padding: 50px;
-  border: 25px solid #B71C1C;
-  margin: 25px;
+  border: 25px solid #795548;
 }
 
 .arrow-wrap {
