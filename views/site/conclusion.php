@@ -10,7 +10,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <script src="arrow.js"></script>
 </head>
 
-<header class="jumbotron" style="background-size: 100% auto; height: 600px;">
+<header class="jumbotron" style="background-size: 100% auto; height: 500px;">
   <h1>In Conclusion</h1>
   <h3>We liked it.</h3>
 </header>
