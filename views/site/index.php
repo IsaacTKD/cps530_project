@@ -6,11 +6,15 @@ $this->title = 'Yii Framework';
 ?>
 <div class="site-index">
 
-    <div class="jumbotron">
-        <h1>The Yii Framework!</h1>
-    </div>
-
-    <div class="body-content">
+  <header class="jumbotron" style="height:400px">
+    <h1>The Yii Framework</h1>
+  </header>
+  <section>
+    <a class="arrow-wrap" href="#body-content">
+      <span class="arrow"></span>
+      <!--<span class="hint">scroll</span>-->
+    </a>
+    <div class="body-content" id="body-content">
       <div class="row">
         <div class="col-lg-12">
             <h2>What Is Yii?</h2>
@@ -23,10 +27,15 @@ $this->title = 'Yii Framework';
               </figure>
         </div>
       </div>
-      <div class="row" style="background:white">
+      <a class="arrow-wrap" href="#popularity">
+        <span class="arrow"></span>
+        <!--<span class="hint">scroll</span>-->
+      </a>
+      <div class="row" id="popularity">
           <div class="col-lg-12">
                 <h2>Popularity</h2>
-                <script type="text/javascript" src="//www.google.ca/trends/embed.js?hl=en-US&q=Yii,+/m/09t3sp,+Symfony,+/m/07h2gf,+WebGUI&cmpt=q&tz=Etc/GMT%2B5&tz=Etc/GMT%2B5&content=1&cid=TIMESERIES_GRAPH_AVERAGES_CHART&export=5&w=1000&h=350"></script>
+                <script type="text/javascript" src="//www.google.ca/trends/embed.js?hl=en-US&q=Yii,+/m/09t3sp,+Symfony,+/m/07h2gf,+WebGUI&cmpt=q&tz=Etc/GMT%2B5&tz=Etc/GMT%2B5&content=1&cid=TIMESERIES_GRAPH_AVERAGES_CHART&export=5&w=1000&h=350" style="padding: 25px";
+></script>
           </div>
       </div>
       <div class="row">
@@ -73,40 +82,6 @@ $this->title = 'Yii Framework';
                </ul>
           </div>
       </div>
-      <div class="row">
-            <div class="col-lg-12">
-                <div class="container">
-                  <h2>Which developers mostly use and for what kind of websites</h2>
-                  <table class="table table-hover">
-                    <thead>
-                      <tr>
-                        <th>Developers</th>
-                        <th>Websites (kind)</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Web designer</td>
-                        <td></td>
-                      </tr>
-                      <tr>
-                        <td>Web programmer</td>
-                        <td></td>
-                      </tr>
-                      <tr>
-                        <td>Flash developer</td>
-                        <td></td>
-                      </tr>
-                      <tr>
-                        <td>Content developer</td>
-                        <td></td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-
-            </div>
-        </div>
         <div class="row">
           <h2>Sites that use Yii</h2>
             <div class="col-lg-6">
@@ -139,4 +114,5 @@ $this->title = 'Yii Framework';
         </div>
 
     </div>
+  </section>
 </div>

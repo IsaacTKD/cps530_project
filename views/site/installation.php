@@ -7,11 +7,17 @@ $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-index">
 
-    <div class="jumbotron">
-        <h1>Installation of Yii Framework!</h1>
-    </div>
+  <header class="jumbotron" style="height:400px">
+    <h1>Installing the Yii Framework</h1>
+    <h3>Easier than you think.</h3>
+  </header>
 
-    <div class="body-content">
+  <section>
+    <a class="arrow-wrap" href="#body-content">
+      <span class="arrow"></span>
+      <!--<span class="hint">scroll</span>-->
+    </a>
+    <div class="body-content"  id="body-content">
       <div class="row">
         <div class="col-lg-6">
             <h2>Requirements:</h2>

@@ -5,10 +5,8 @@ $this->title= "Conclusion";
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans|Maven+Pro:500' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="theme.css">
-<script src="tools.js"></script>
 
-<header class="jumbotron" style="height:600px">
+<header class="jumbotron" style="height:400px">
   <h1>In Conclusion</h1>
   <h3>We liked it.</h3>
 </header>
