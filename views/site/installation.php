@@ -47,7 +47,7 @@ $this->params['breadcrumbs'][] = $this->title;
           <h2>Update composer if the first commmand did not execute</h2>
           <img src="updatecomposer.png" alt="Install Wamp" height="200" width="1000" />
           <h2>Create first application: </h2>
-          <img src="second command.png" alt="Install Wamp" height="500" width="1000" />
+          <img src="second command.png" alt="Install Wamp" height="700" width="1000" />
           <h2>Go to : localhost/web/index.php: </h2>
           <img src="start-app-installed.png" alt="Install Wamp" height="650" width="1000" />
 
