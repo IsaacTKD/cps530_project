@@ -4,7 +4,11 @@ use yii\helpers\Html;
 $this->title= "Conclusion";
 $this->params['breadcrumbs'][] = $this->title;
 ?>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans|Maven+Pro:500' rel='stylesheet' type='text/css'>
+<script src="arrow.js"></script>
+</head>
 
 <header class="jumbotron" style="background-size: 100% auto; height: 600px;">
   <h1>In Conclusion</h1>

@@ -4,6 +4,11 @@
 
 $this->title = 'Yii Framework';
 ?>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans|Maven+Pro:500' rel='stylesheet' type='text/css'>
+<script src="arrow.js"></script>
+</head>
 <div class="site-index">
 
   <header class="jumbotron" style="background-image:url(startup-593327.jpg); background-size: 100% auto; height: 500px; color:white">
