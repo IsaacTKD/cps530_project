@@ -55,45 +55,40 @@ $this->params['breadcrumbs'][] = $this->title;
   </a>
 </div>
 
-  <nav class ="navbar narbar-default">
-    <div class ="container-fluid">
-      <div class ="navbar-header">
-        <h1>Tutorial</h1>
+<nav class ="navbar narbar-default">
+  <div class ="container-fluid">
+    <div class ="navbar-header">
+      <h1>Tutorial</h1>
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
-          <li><a href="#row_create">Create Database</a></li>
-          <li><a href="#row_generator">Yii Generator</a></li>
-          <li><a href="#row_css">CSS</a></li>
+        <li><a href="#row_create">Create Database</a></li>
+        <li><a href="#row_generator">Yii Generator</a></li>
+        <li><a href="#row_css">CSS</a></li>
       </ul>
+    </div>
+  </div>
+</nav>
+<section>
+  <div class="body-content">
+    <div class="row" id="row_generator">
+      <div class="col-lg-6">
+        <h2> Create a database </h2>
+        <img src="Database.png" alt="DbCreate" height="500" width="900" />
+        <h2> Connection Set-up </h2>
+        <img src="Connection_Setup.png" alt="DbConnection" height="500" width="900"/>
+        <h2> Yii Generators </h2>
+        <img src="Database_Gii_1.png" alt="DbGii_1" height="500" width="900"/>
+        <h2> Model generator for database </h2>
+        <img src="Database_Gii_2.png" alt="DbGii_2" height="500" width="900"/>
+        <h2> Generator CRUD for database </h2>
+        <img src="Database_Gii_3.png" alt="DbGii_3" height="500" width="900"/>
+        <h2> A webpage is generated with a database</h2>
+        <img src="BeforeCSS.png" alt="Database" height="500" width="900"/>
+        <h2> Changing the CSS code</h2>
+        <img src="CSS_1.png" alt="CSS_1" height="500" width="900"/>
       </div>
     </div>
-  </nav>
-<div class="body-content">
-  <div class="row" id="row_create">
-  <br><br>
-  <h2> Create a database </h2>
-  <img src="Database.png" alt="DbCreate" height="500" width="900" />
-  <h2> Connection Set-up </h2>
-  <img src="Connection_Setup.png" alt="DbConnection" height="500" width="900"/>
+    <br><br>
+    <a class="btn btn-primary" href="http://localhost/cps530_project/web/index.php?r=movie/index">Webpage</a>
   </div>
-
-  <div class="row" id="row_generator">
-  <br><br>
-  <h2> Yii Generators </h2>
-  <img src="Database_Gii_1.png" alt="DbGii_1" height="500" width="900"/>
-  <h2> Model generator for database </h2>
-  <img src="Database_Gii_2.png" alt="DbGii_2" height="500" width="900"/>
-  <h2> Generator CRUD for database </h2>
-  <img src="Database_Gii_3.png" alt="DbGii_3" height="500" width="900"/>
-  <h2> A webpage is generated with a database</h2>
-  <img src="BeforeCSS.png" alt="Database" height="500" width="900"/>
-  </div>
-
-  <div class="row" id="row_css">
-  <br><br>
-  <h2> Changing the CSS code</h2>
-  <img src="CSS_1.png" alt="CSS_1" height="500" width="900"/>
-  </div>
-  <br><br>
-  <a class="btn btn-primary" href="http://localhost/cps530_project/web/index.php?r=movie/index">Webpage</a>
-</div>
+</section>
