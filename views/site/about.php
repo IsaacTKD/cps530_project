@@ -39,8 +39,7 @@ $this->params['breadcrumbs'][] = $this->title;
           <li class="list-group-item-text">University: Ryerson</li>
           <li class="list-group-item-text">Program: Computer Science</li>
           <li class="list-group-item-text">Year(s) of programming: 4 </li>
-          <li class="list-group-item-text">Responsibilities: Installation of Yii on Windows.
-                                            Creating first application using Yii. </li>
+          <li class="list-group-item-text">Responsibilities: Installation tutorial </li>
         </ul>
       </a>
       <a href="#" class="list-group-item">
@@ -52,7 +51,7 @@ $this->params['breadcrumbs'][] = $this->title;
           <li class="list-group-item-text">University: Ryerson</li>
           <li class="list-group-item-text">Program: Computer Science</li>
           <li class="list-group-item-text">Year(s) of programming: 4</li>
-          <li class="list-group-item-text">Responsibilities: </li>
+          <li class="list-group-item-text">Responsibilities: Visual Design, Conclusion, Proof Reading</li>
         </ul>
       </a>
 </div>
