@@ -6,7 +6,7 @@ $this->title = 'Yii Framework';
 ?>
 <div class="site-index">
 
-  <header class="jumbotron" style="background-image:url(startup-593327.jpg); background-size: 100% auto; height: 600px; color:white">
+  <header class="jumbotron" style="background-image:url(startup-593327.jpg); background-size: 100% auto; height: 500px; color:white">
     <h1 style="font-size:200px">Yii</h1>
     <br>
     <h3>A Fast, Secure and Professional PHP Framework</h3>
@@ -79,18 +79,32 @@ $this->title = 'Yii Framework';
                   <li>Input validation, output filtering</li>
               </ul>
           </ul>
-          <h4 style="text-decoration: underline";>Extensible</h4>
+          <h4 style="text-decoration: underline";>Extensibility</h4>
             <ul>
               <li>Yii features can be replaced with code created from scratch, or even code borrowed from other frameworks.</li>
             </ul>
+            <h4 style="text-decoration: underline";>Summary</h4>
+              <ul>
+                <li>Yii is ideal for layered, very structured sites</li>
+                <li>Its extensibility, error handling, security make it ideal for e-commerce sites.</li>
+              </ul>
         </div>
         <div class="col-lg-6">
           <h2>Weaknesses</h2>
+          <h4 style="text-decoration: underline";>User Issues</h4>
           <ul>
             <li>Steep learning curve</li>
-            <li>Less efficient in some cases</li>
-            <li>Database focused design isn't ideal for all use cases</li>
-            <li>Danger of bloat</li>
+            <li>Development can take a long time for devs that are unfamiliar with the framework.</li>
+            <li>Code can become overly verbose</li>
+          </ul>
+          <h4 style="text-decoration: underline";>Technical Issues</h4>
+          <ul>
+            <li>Can be overly reliant on static methods</li>
+            <li>Danger of bloat due to heavy use of arrays.</li>
+          </ul>
+          <h4 style="text-decoration: underline";>Summary</h4>
+          <ul>
+            <li>Large projects can get out of hand in terms of code management.</li>
           </ul>
         </div>
       </div>

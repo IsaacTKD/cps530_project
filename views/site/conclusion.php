@@ -6,7 +6,7 @@ $this->params['breadcrumbs'][] = $this->title;
 ?>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans|Maven+Pro:500' rel='stylesheet' type='text/css'>
 
-<header class="jumbotron" style="height:400px">
+<header class="jumbotron" style="background-size: 100% auto; height: 400px;">
   <h1>In Conclusion</h1>
   <h3>We liked it.</h3>
 </header>
