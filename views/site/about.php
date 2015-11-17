@@ -25,6 +25,9 @@ $this->params['breadcrumbs'][] = $this->title;
         </ul>
       </a>
       <a href="#" class="list-group-item">
+        <figure class="right">
+          <img src="charliepic2.jpg" alt="charlie" height="120" width="120"/>
+        </figure>
         <h4 class="list-group-item-heading">Charlie Driver</h4>
         <ul>
           <li class="list-group-item-text">University: Ryerson</li>
