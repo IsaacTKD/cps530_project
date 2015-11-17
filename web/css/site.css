@@ -274,7 +274,7 @@ h2, h3 {
   margin-top:2em;
 }
 
-p, li,figcaption {
+p, li,figcaption,a {
   color:#555;
   font-size:0.9em;
   font-family:'Maven Pro', sans-serif;
