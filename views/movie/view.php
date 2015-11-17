@@ -36,7 +36,6 @@ $this->params['breadcrumbs'][] = $this->title;
             'movie_actors',
             'movie_genre',
         ],
-
     ]) ?>
 
 </div>
