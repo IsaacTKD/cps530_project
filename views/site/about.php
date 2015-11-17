@@ -23,7 +23,7 @@ $this->params['breadcrumbs'][] = $this->title;
         <ul>
           <li class="list-group-item-text">University: Ryerson</li>
           <li class="list-group-item-text">Program: Computer Science</li>
-          <li class="list-group-item-text">Year(s) of programming: 2</li>
+          <li class="list-group-item-text">Year(s) of programming: 3</li>
           <li class="list-group-item-text">Responsibilities: How-to Tutorial, The actual page and The about page </li>
         </ul>
       </a>
