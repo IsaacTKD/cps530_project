@@ -57,7 +57,7 @@ $this->params['breadcrumbs'][] = $this->title;
 </div>
 
     <div style="font-size:80%">
-        References : <br>
+        <p>References :</p>
         <a href="https://erickarnis.wordpress.com/">Eric Karnis's Website</a> <br>
         <a href="http://www.yiiframework.com/performance/">Image Source: PHP Framework Performance Comparison </a><br>
         <a href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller#/media/File:MVC-Process.svg">Image Source: Model-View-Controller Relationship</a><br>
