@@ -91,12 +91,19 @@ $this->title = 'Yii Framework';
         </div>
         <div class="col-lg-6">
           <h2>Weaknesses</h2>
+          <h4 style="text-decoration: underline";>User Issues</h4>
           <ul>
             <li>Steep learning curve</li>
             <li>Development can take a long time for devs that are unfamiliar with the framework.</li>
             <li>Code can become overly verbose</li>
+          </ul>
+          <h4 style="text-decoration: underline";>Technical Issues</h4>
+          <ul>
             <li>Can be overly reliant on static methods</li>
             <li>Danger of bloat due to heavy use of arrays.</li>
+          </ul>
+          <h4 style="text-decoration: underline";>Summary</h4>
+          <ul>
             <li>Large projects can get out of hand in terms of code management.</li>
           </ul>
         </div>
