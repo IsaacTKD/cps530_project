@@ -42,7 +42,7 @@ a.btn.btn-success{
     height: auto;
     margin: 0 auto -60px;
     padding: 0 0 60px;
-    background-color: #3F51B5;
+    background-color: #FFFFFF;
     font-family: specialFont;
     font-size: 140%;
 }
@@ -61,7 +61,7 @@ a.btn.btn-success{
 .jumbotron {
     text-align: center;
     background-color: transparent;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .jumbotron .btn {
