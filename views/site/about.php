@@ -12,7 +12,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="site-about">
 
     <div class="list-group">
-      <a href="#" class="list-group-item active" style="background-color:#B71C1C">
+      <a href="#" class="list-group-item active" style="background-color:#795548">
         <h4 class="list-heading">Team Members</h4>
       </a>
       <a href="#" class="list-group-item">
