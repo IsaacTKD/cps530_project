@@ -6,7 +6,7 @@ $this->title = 'Yii Framework';
 ?>
 <div class="site-index">
 
-  <header class="jumbotron" style="background-image:url(startup-593327.jpg); background-size: 100% auto; height: 600px; color:white">
+  <header class="jumbotron" style="background-image:url(startup-593327.jpg); background-size: 100% auto; height: 500px; color:white">
     <h1 style="font-size:200px">Yii</h1>
     <br>
     <h3>A Fast, Secure and Professional PHP Framework</h3>
