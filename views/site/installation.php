@@ -7,7 +7,7 @@ $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-index">
 
-  <header class="jumbotron" style="height:400px">
+  <header class="jumbotron" style="background-size: 100% auto; height: 600px;">
     <h1>Installing the Yii Framework</h1>
     <h3>Easier than you think.</h3>
   </header>
