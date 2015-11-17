@@ -62,13 +62,27 @@ $this->title = 'Yii Framework';
       <div class="row">
         <div class="col-lg-6">
           <h2>Strengths</h2>
+          <h4 style="text-decoration: underline";>Performance</h4>
           <ul>
-            <li>Easy to Install</li>
-            <li>Model-View-Controller</li>
-            <li>Easy to debug the code</li>
-            <li>Flexibility and Modularity. Yii features can be replaced with code created from scratch, or even code borrowed from other frameworks.</li>
+            <li>Yii can handle a large number of requests per second. It uses a lazy loading technique.</li>
+            <li>Yii is very easy to install</li>
+            <li>Very effective caching</li>
           </ul>
-
+          <h4 style="text-decoration: underline";>Security</h4>
+          <ul>
+            <li>Built in tools for: </li>
+              <ul>
+                  <li>Cross site scripting prevention</li>
+                  <li>Cross-site Request Forgery Prevention</li>
+                  <li>Cookie Attack Prevention</li>
+                  <li>SQL injection prevention</li>
+                  <li>Input validation, output filtering</li>
+              </ul>
+          </ul>
+          <h4 style="text-decoration: underline";>Extensible</h4>
+            <ul>
+              <li>Yii features can be replaced with code created from scratch, or even code borrowed from other frameworks.</li>
+            </ul>
         </div>
         <div class="col-lg-6">
           <h2>Weaknesses</h2>

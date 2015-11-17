@@ -19,7 +19,7 @@ $this->params['breadcrumbs'][] = $this->title;
     </a>
     <div class="body-content"  id="body-content">
       <div class="row">
-        <div class="col-lg-6">
+        <div>
           <h2>Requirements:</h2>
           <ul>
             <li>WampServer</li>
@@ -45,7 +45,7 @@ $this->params['breadcrumbs'][] = $this->title;
           <img src="second command.png" alt="Install Wamp" height="500" width="1000" />
           <h2>Go to : localhost/web/index.php: </h2>
           <img src="start-app-installed.png" alt="Install Wamp" height="650" width="1000" />
-          
+
         </div>
       </div>
     </div>
