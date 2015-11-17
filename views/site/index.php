@@ -79,12 +79,12 @@ $this->title = 'Yii Framework';
                   <li>Input validation, output filtering</li>
               </ul>
           </ul>
-          <h4 style="text-decoration: underline";>Extensible</h4>
+          <h4 style="text-decoration: underline";>Extensibility</h4>
             <ul>
               <li>Yii features can be replaced with code created from scratch, or even code borrowed from other frameworks.</li>
             </ul>
-          <h4>Yii is ideal for layered, very structured sites</h4>
-          <h4>Its extensibility, error handling, security make it ideal for e-commerce sites.</h4>
+          <p>Yii is ideal for layered, very structured sites</p>
+          <p>Its extensibility, error handling, security make it ideal for e-commerce sites.</p>
         </div>
         <div class="col-lg-6">
           <h2>Weaknesses</h2>

@@ -30,10 +30,10 @@ AppAsset::register($this);
     position: absolute;
     right: 0px;
     width: 300px;
-    padding-top: 5px;
+    padding-top: 0px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 </style>
 </head>
@@ -58,7 +58,7 @@ AppAsset::register($this);
             ['label' => 'Actual page', 'url'=>['/movie/index']],
             ['label' => 'Conclusion', 'url' => ['/site/conclusion']],
             ['label' => 'About us', 'url' => ['/site/about']],
-            
+
         ],
     ]);
     NavBar::end();
