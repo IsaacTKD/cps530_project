@@ -15,9 +15,9 @@ $this->params['breadcrumbs'][] = $this->title;
       <a href="#" class="list-group-item active" style="background-color:#795548">
         <h4 class="list-heading">Team Members</h4>
       </a>
-      <a href="#" class="list-group-item">
+      <a href="#" class="list-group-item" id= "item" >
         <figure class="right">
-          <img src="isaac.jpg" alt="yeah" height="130" width="130"/>
+          <img src="isaac.jpg" alt="yeah" height="180" width="140"/>
         </figure>
         <h4 class="list-group-item-heading">Isaac Tong</h4>
         <ul>
@@ -27,7 +27,7 @@ $this->params['breadcrumbs'][] = $this->title;
           <li class="list-group-item-text">Responsibilities: How-to Tutorial, The actual page and The about page </li>
         </ul>
       </a>
-      <a href="#" class="list-group-item">
+      <a href="#" class="list-group-item" id="item">
         <h4 class="list-group-item-heading">Charlie Driver</h4>
         <ul>
           <li class="list-group-item-text">University: Ryerson</li>
@@ -36,7 +36,7 @@ $this->params['breadcrumbs'][] = $this->title;
           <li class="list-group-item-text">Responsibilities: </li>
         </ul>
       </a>
-      <a href="#" class="list-group-item">
+      <a href="#" class="list-group-item" id="item">
         <h4 class="list-group-item-heading">Matin Shirandasht</h4>
         <ul>
           <li class="list-group-item-text">University: Ryerson</li>
@@ -45,9 +45,9 @@ $this->params['breadcrumbs'][] = $this->title;
           <li class="list-group-item-text">Responsibilities: Installation tutorial </li>
         </ul>
       </a>
-      <a href="#" class="list-group-item">
+      <a href="#" class="list-group-item" id="item">
         <figure class="right">
-          <img src="eric.jpg" alt="me too thanks" height="130" width="130"/>
+          <img src="eric.jpg" alt="me too thanks" height="180" width="180"/>
         </figure>
         <h4 class="list-group-item-heading">Eric Karnis</h4>
         <ul>
