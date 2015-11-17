@@ -83,14 +83,18 @@ $this->title = 'Yii Framework';
             <ul>
               <li>Yii features can be replaced with code created from scratch, or even code borrowed from other frameworks.</li>
             </ul>
+          <h4>Yii is ideal for layered, very structured sites</h4>
+          <h4>Its extensibility, error handling, security make it ideal for e-commerce sites.</h4>
         </div>
         <div class="col-lg-6">
           <h2>Weaknesses</h2>
           <ul>
             <li>Steep learning curve</li>
-            <li>Less efficient in some cases</li>
-            <li>Database focused design isn't ideal for all use cases</li>
-            <li>Danger of bloat</li>
+            <li>Development can take a long time for devs that are unfamiliar with the framework.</li>
+            <li>Code can become overly verbose</li>
+            <li>Can be overly reliant on static methods</li>
+            <li>Danger of bloat due to heavy use of arrays.</li>
+            <li>Large projects can get out of hand in terms of code management.</li>
           </ul>
         </div>
       </div>
