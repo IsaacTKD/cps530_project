@@ -83,8 +83,11 @@ $this->title = 'Yii Framework';
             <ul>
               <li>Yii features can be replaced with code created from scratch, or even code borrowed from other frameworks.</li>
             </ul>
-          <p>Yii is ideal for layered, very structured sites</p>
-          <p>Its extensibility, error handling, security make it ideal for e-commerce sites.</p>
+            <h4 style="text-decoration: underline";>Summary</h4>
+              <ul>
+                <li>Yii is ideal for layered, very structured sites</li>
+                <li>Its extensibility, error handling, security make it ideal for e-commerce sites.</li>
+              </ul>
         </div>
         <div class="col-lg-6">
           <h2>Weaknesses</h2>
